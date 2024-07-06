@@ -4,12 +4,31 @@ import ThreeDRotation from '@mui/icons-material/ThreeDRotation'
 import HomeIcon from '@mui/icons-material/Home'
 import Typography from '@mui/material/Typography'
 import { pink } from '@mui/material/colors'
+import {
+  useColorScheme,
+} from '@mui/material/styles'
+
+
+function ModeToggle() {
+  const { mode, setMode } = useColorScheme()
+  return (
+    <Button
+      onClick={() => {
+        setMode(mode === 'light' ? 'dark' : 'light')
+      }}
+    >
+      {mode === 'light' ? 'Turn dark' : 'Turn light'}
+    </Button>
+  )
+}
 
 function App() {
 
   return (
     <>
       <div>Hello world</div>
+      <ModeToggle />
+      <hr/>
       <Typography variant="h1" color="text.secondary">Hello world</Typography>
       <Button variant="contained">Hello world</Button>
       <Button variant="text">Text</Button>
@@ -28,5 +47,7 @@ function App() {
     </>
   )
 }
+
+
 
 export default App
