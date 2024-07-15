@@ -17,8 +17,8 @@ function ModeSelect() { // component dung chung
     setMode(selectMode)
   }
   return (
-    <FormControl sx={{ m: 1, minWidth: 120 }} size="small" >
-      <InputLabel id="demo-select-small-label">Age</InputLabel>
+    <FormControl size="small" >
+      <InputLabel id="demo-select-small-label">Mode</InputLabel>
       <Select
         labelId="label-select-dark-light-mode"
         id="select-dark-light-mode"
@@ -27,9 +27,9 @@ function ModeSelect() { // component dung chung
         onChange={handleChange}
       >
         <MenuItem value="light">
-          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
             <LightModeIcon/> Light
-          </div>
+          </Box>
         </MenuItem>
         <MenuItem value="dark">
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
@@ -37,7 +37,7 @@ function ModeSelect() { // component dung chung
           </Box>
         </MenuItem>
         <MenuItem value="system">
-          <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
             <SettingsBrightnessIcon/> System
           </Box>
         </MenuItem>
