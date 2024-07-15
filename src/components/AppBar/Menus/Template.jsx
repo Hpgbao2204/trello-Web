@@ -20,13 +20,13 @@ function Template() {
   }
   return (
     <Box>
-      <Button sx={{ color: 'white' }}
+      <Button
         id="basic-button-recent"
         aria-controls={open ? 'basic-menu-template' : undefined}
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
-        endIcon={<ExpandMoreIcon sx={{ color: 'white' }}/>}
+        endIcon={<ExpandMoreIcon/>}
       >
         Template
       </Button>

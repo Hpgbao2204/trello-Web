@@ -46,26 +46,26 @@ function Profile() {
           'aria-labelledby': 'basic-button-profile'
         }}
       >
-        <MenuItem >
+        <MenuItem>
           <Avatar sx={{ width: 28, height: 28, mr: 2 }}/> Profile
         </MenuItem>
-        <MenuItem >
+        <MenuItem>
           <Avatar sx={{ width: 28, height: 28, mr: 2 }} /> My account
         </MenuItem>
         <Divider />
-        <MenuItem >
+        <MenuItem>
           <ListItemIcon>
             <PersonAdd fontSize="small" />
           </ListItemIcon>
           Add another account
         </MenuItem>
-        <MenuItem >
+        <MenuItem>
           <ListItemIcon>
             <Settings fontSize="small" />
           </ListItemIcon>
           Settings
         </MenuItem>
-        <MenuItem >
+        <MenuItem>
           <ListItemIcon>
             <Logout fontSize="small" />
           </ListItemIcon>

@@ -20,13 +20,13 @@ function Starred() {
   }
   return (
     <Box>
-      <Button sx={{ color: 'white' }}
+      <Button
         id="basic-button-starred"
         aria-controls={open ? 'basic-menu-starred' : undefined}
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
-        endIcon={<ExpandMoreIcon sx={{ color: 'white' }}/>}
+        endIcon={<ExpandMoreIcon/>}
       >
         Starred
       </Button>
