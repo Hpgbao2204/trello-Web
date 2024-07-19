@@ -27,17 +27,17 @@ function ModeSelect() { // component dung chung
         onChange={handleChange}
       >
         <MenuItem value="light">
-          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, color: 'primary.main' }}>
             <LightModeIcon/> Light
           </Box>
         </MenuItem>
         <MenuItem value="dark">
-          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, color: 'primary.main' }}>
             <DarkModeIcon fontSize='small'/> Dark
           </Box>
         </MenuItem>
         <MenuItem value="system">
-          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, color: 'primary.main' }}>
             <SettingsBrightnessIcon/> System
           </Box>
         </MenuItem>
