@@ -31,7 +31,7 @@ function Profile() {
           aria-haspopup="true"
           aria-expanded={open ? 'true' : undefined}
         >
-          <Avatar sx={{ width: 30, height: 32 }}
+          <Avatar sx={{ width: 34, height: 34 }}
             src='https://i.pinimg.com/736x/79/c2/89/79c289b1eea9dc73defc242cb1719b1a.jpg'
             alt='GiaBao'
           />
