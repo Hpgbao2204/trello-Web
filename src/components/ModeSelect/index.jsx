@@ -18,7 +18,7 @@ function ModeSelect() { // component dung chung
   }
   return (
     <FormControl size="small" >
-      <InputLabel id="demo-select-small-label">Mode</InputLabel>
+      <InputLabel id="demo-select-small-label" sx= {{ minWidth: 120 }}>Mode</InputLabel>
       <Select
         labelId="label-select-dark-light-mode"
         id="select-dark-light-mode"
