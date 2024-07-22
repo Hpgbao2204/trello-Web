@@ -37,7 +37,6 @@ function BoardBard() {
       overflowX: 'auto',
       gap: 2,
       paddingX: 2,
-      borderBottom: '2px solid #ecf0f1'
     }}>
       <Box sx= {{ display:'flex', alignItems:'center', gap: 2 }}>
         <Chip
