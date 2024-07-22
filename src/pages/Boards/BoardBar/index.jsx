@@ -37,7 +37,7 @@ function BoardBard() {
       overflowX: 'auto',
       gap: 2,
       paddingX: 2,
-      borderBottom: '2px solid #00bfa5'
+      borderBottom: '2px solid #ecf0f1'
     }}>
       <Box sx= {{ display:'flex', alignItems:'center', gap: 2 }}>
         <Chip
@@ -97,7 +97,10 @@ function BoardBard() {
               width: 34,
               height: 34,
               fontSize: '16px',
-              border: 'none'
+              border: 'none',
+              color: 'white',
+              cursor: 'pointer',
+              '&:first-of-type': { bgcolor: '#a4b0de' }
             }
           }}
         > {/* max la 4 cai avatar, va cai thu 4 la khi tinh toan so luong avatar con lai */}
